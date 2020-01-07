@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D8C052E23C0E1F700C18493 /* Daylight_calendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8C052D23C0E1F700C18493 /* Daylight_calendarView.swift */; };
+		4D8C053623C10D1400C18493 /* setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8C053523C10D1400C18493 /* setup.swift */; };
+		4D8C053823C4E46900C18493 /* daylightview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8C053723C4E46900C18493 /* daylightview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4D8C052023C0E16800C18493 /* Daylight calendar.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Daylight calendar.saver"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D8C052723C0E16800C18493 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4D8C052D23C0E1F700C18493 /* Daylight_calendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Daylight_calendarView.swift; sourceTree = "<group>"; };
+		4D8C053523C10D1400C18493 /* setup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setup.swift; sourceTree = "<group>"; };
+		4D8C053723C4E46900C18493 /* daylightview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = daylightview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +49,8 @@
 			isa = PBXGroup;
 			children = (
 				4D8C052723C0E16800C18493 /* Info.plist */,
-				4D8C052D23C0E1F700C18493 /* Daylight_calendarView.swift */,
+				4D8C053523C10D1400C18493 /* setup.swift */,
+				4D8C053723C4E46900C18493 /* daylightview.swift */,
 			);
 			path = "Daylight calendar";
 			sourceTree = "<group>";
@@ -131,7 +134,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D8C052E23C0E1F700C18493 /* Daylight_calendarView.swift in Sources */,
+				4D8C053823C4E46900C18493 /* daylightview.swift in Sources */,
+				4D8C053623C10D1400C18493 /* setup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
